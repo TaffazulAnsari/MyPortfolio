@@ -166,9 +166,7 @@
           <div class="overlay"></div>
           <div class="container">
             <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-              <!-- <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/about-mee.jpg)">
-                <div class="overlay"></div>
-              </div> -->
+              
               <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <div class="text">
                   <span class="subheading">Hello Everyone!</span>
@@ -191,21 +189,20 @@
                       for (let i = 0; i < text.length; i++) {
                         setTimeout(() => {
                           typingAnimationElement.textContent += text[i];
-                        }, i * 100); // Decreased delay to speed up the typing animation
+                        }, i * 100); 
                       }
 
                       // Once the animation is complete, reset the text and start over
                       setTimeout(() => {
                         typingAnimationElement.textContent = '';
                         playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-                      }, text.length * 100); // Adjusted delay accordingly
+                      }, text.length * 100); 
                     }
 
                     // Start the typing animation loop
                     playTypingAnimation(typingTexts[0]);
                   </script><br><br>
-                  <!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-                  <!-- <br> -->
+                  
                   <p>
                     <a href="https://www.linkedin.com/in/taffazul-ansari-87229a284/" class="btn btn-white btn-outline-white py-3 px-4">My Linkedin</a>
                     <a href="https://github.com/TaffazulAnsari" class="btn btn-primary py-3 px-4">My GitHub</a>
@@ -222,7 +219,7 @@
       <div class="container">
         <div class="row">
           <div class="row d-flex align-items-stretch">
-            <!-- <div class="row d-flex"> -->
+           
             <div class="col-md-6 col-lg-5 d-flex">
               <div class="img-about img d-flex align-items-stretch">
                 <div class="overlay">
@@ -232,27 +229,26 @@
                         <img src="images/mee.png" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
                     </div>
-                    <!-- Details next to profile image -->
+                    
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p>
                           <span class="title-s">Name:
                           </span>
-                          <span>Taffazul Ansari</span></p>
-                        <p>
-                          <span class="title-s">Job Role:
-                          </span>
-                          <span>Software Tester</span></p>
-                        <p>
-                          <!-- <span class="title-s">Experience: </span> <span>5 Years 3 Months</span></p> <p> -->
+                          <span>Taffazul Ansari</span><br>
+                          <span class="title-s">Education: </span><br>
+                          <span>SDET at Masai school</span><br>
+                          <span>MCA from JRU</span><br>
+                          <span>BA(Eng Hons)-Gossner College</span>
                           <span class="title-s">Address:
                           </span>
-                          <span>Hazaribagh, Jharkhand</span></p>
+                          <span>Hazaribagh, Jharkhand, India</span></p>
                       </div>
                     </div>
                   </div>
 
                   <div class="skill-mf">
+                    <br>
                     <p class="title-s" style="margin-left: 175px !important; color:rgba(30, 197, 235, 0.984)">Technical Skills</p>
 
                     <div class="row mb-3">
@@ -278,6 +274,12 @@
                         <span>Selenium</span>
                         <div class="progress">
                           <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 mb-3">
+                        <span>Cucumber</span>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: 93%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                       </div>
                       <div class="col-12 col-md-6 mb-3">
@@ -361,34 +363,35 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+            <div  style="text-align: justify;" class="col-md-6 col-lg-7 pl-lg-5 pb-5">
               <div class="row justify-content-start pb-3">
                 <div class="col-md-12 heading-section ftco-animate">
 
                   <h2 class="mb-4">About Me</h2>
 
-                  <p>MCA graduated with expertise in Software Development Engineer in Testing. Proficient in Java, JavaScript, Manual Testing, Cypress, and Selenium. Experience in Manual and Automation Testing and deploying web applications through academic projects and internships.</p>
+                  <p>
+                    I am an accomplished Software Development Engineer in Testing with expertise in manual and automation testing, Java, JavaScript, and Selenium. I am skilled in utilizing Generative AI to enhance testing efficiency and quickly adopting new technologies like Python for algorithmic error analysis. With strong collaboration and problem-solving skills, I excel in team environments and software development.
+                    
+                    Currently, I am pursuing the SDET program at Masai School. I hold an MCA degree from JRU with a specialization in Computer Applications and a BA in English Honours from Gossner College. Through academic projects and internships, I have gained hands-on experience in manual and automation testing, deployed web applications, and demonstrated proficiency in tools like Cypress and Selenium. I am passionate about leveraging innovative solutions to tackle testing challenges.</p>
                   <ul class="about-info mt-4 px-md-0 px-2">
                     <li class="d-flex">
                       <span>Profile:</span>
                       <span>Manual & Automation Testing &amp; Video Editor</span></li>
                     <li class="d-flex">
                       <span>Domain:</span>
-                      <span>Software Developement Engineer in Testing</span></li>
-                    <li class="d-flex">
-                      <span>Education:</span>
-                      <span>Master of Computer Applications</span></li>
+                      <span>Software Developement Engineer in Test</span></li>
+                    
                     <li class="d-flex">
                       <span>Language:</span>
                       <span>English, Hindi, Urdu</span></li>
-                    <!-- <li class="d-flex"> <span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp; Tableau</span></li> -->
+                    
                     <li class="d-flex">
                       <span>Other Skills:</span>
                       <span>
-                        Youtube Contact Creator, Observational skills, Creativity, Editing, Technical proficiency, Communication skills, Time management, Adaptability &amp; Attention to detail</span></li>
+                        Youtube Contact Creator, Observational skills, Creativity, Editing, Technical proficiency, Communication skills, Time management, Adaptability &amp; Attention to detail.</span></li>
                     <li class="d-flex">
                       <span>Interest:</span>
-                      <span>Explore, Cricket, Drawing, Traveling , Teaching, Editing</span></li>
+                      <span>Explore new things in technology, Cricket, Drawing, Traveling , Reading, Editing.</span></li>
                   </ul>
                 </div>
               </div>
@@ -400,12 +403,13 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-      <div class="container">
+    <section style="text-align: justify;" class="ftco-section ftco-no-pb" id="resume-section">
+      <div  class="container">
         <div class="row justify-content-center pb-5">
           <div class="col-md-10 heading-section text-center ftco-animate">
             <h2 class="mb-4">Resume</h2>
-            <p>MCA graduate with a strong background in Software Development Engineering in Testing (SDET). They have expertise in various programming languages and testing frameworks, including Java, JavaScript, and Manual Testing. In addition to their proficiency in Cypress and Selenium for automation, they also have extensive experience in manual testing processes. Throughout their academic projects and internships, they have worked on deploying web applications, gaining hands-on experience in both manual and automated testing techniques. And also Specialized in crafting visually appealing webpages using HTML, CSS, Tailwind, Bootstrap, and Material UI. Eager to apply expertise to drive innovative web development Testing  and Development projects forward.</p>
+            <h1>Pofessional Summary</h1>
+            <p style="text-align: justify;">I am an accomplished Software Development Engineer in Testing with expertise in manual and automation testing, Java, JavaScript, and Selenium. I am skilled in utilizing Generative AI to enhance testing efficiency and quickly adopting new technologies like Python for algorithmic error analysis. With strong collaboration and problem-solving skills, I excel in team environments and software development. Currently, I am pursuing the SDET program at Masai School. I hold an MCA degree from JRU with a specialization in Computer Applications and a BA in English Honours from Gossner College. Through academic projects and internships, I have gained hands-on experience in manual and automation testing, deployed web applications, and demonstrated proficiency in tools like Cypress and Selenium. I am passionate about leveraging innovative solutions to tackle testing challenges.</p>
           </div>
         </div>
 
@@ -419,15 +423,16 @@
           <div class="col-md-6">
             <div class="resume-wrap ftco-animate">
               <span class="date">Aug-2023 to Oct-2023</span>
-              <h2>Software Developer  Internship</h2>
-              <span class="position">Internship</span>
+              <h2>Web Developer Internship</h2>
+              <span class="position">Internship @CCL</span>
               <p class="mt-4">During my internship at Central Coalfields Limited (CCL), I designed and developed a Netflix clone using HTML, CSS, JavaScript, Node.js, Python, and Express.js. I enhanced my technical skills by integrating frontend and backend, collaborating with the team, and solving responsive design, navigation, and database connectivity challenges. Feedback from mentors helped refine project quality.
                 <ul>
                   <li>Working in developement of applications based on frontend and backend .</li>
                   <li>Experience of working in central Coalfield Limited.</li>
-                  <!-- <li>Designed and executed A/B tests, performed rigorous statistical analysis. Led to 20% MoM increase in the conversion rate.</li> -->
+                  
                 </ul>
               </p>
+              <br>
             </div>
 
           </div>
@@ -436,12 +441,12 @@
             <div class="resume-wrap ftco-animate">
               <span class="date">May-2024 to June-2024</span>
               <h2>Java Development Internship</h2>
-              <span class="position">ig/anurag.sketches</span>
+              <span class="position">Internship @TechOctaNet</span>
               <p class="mt-4">As a Java Development Intern at TechOctaNet Services Pvt Ltd., I will develop Java applications, write efficient code, and troubleshoot issues. You will participate in the software development lifecycle, including analysis, design, implementation, and testing. The role offers hands-on experience with Java technologies, bug fixing, performance improvements, documentation, and collaboration with the development team.
                 <ul>
                   <li>Develop Java applications.</li>
                   <li>Write efficient code.</li>
-                  <li>Collaboration with the development team.</li>
+                  <li>Collaboration with the development teams.</li>
 
                 </ul>
               </p>
@@ -462,6 +467,15 @@
         <div class="row">
           <div class="col-md-6">
             <div class="resume-wrap ftco-animate">
+              <span class="date">2024-Present</span>
+              <h2>Software Development Engineer in Test </h2>
+              <span class="position">Masai School, India</span>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
               <span class="date">2022-2024</span>
               <h2>Master of Computer Applications</h2>
               <span class="position">Jharkhand Rai University, Ranchi, Jharkhand</span>
@@ -469,7 +483,7 @@
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div style="margin-left: 290px !important;" class="col-md-6">
             <div class="resume-wrap ftco-animate">
               <span class="date">2017-2020</span>
               <h2>Bachelor of Arts(BA)</h2>
@@ -482,14 +496,14 @@
         <div class="row justify-content-center mt-5">
           <div class="col-md-6 text-center ftco-animate">
             <p>
-              <a href="https://drive.google.com/file/d/1UUOhidL7Dth8bOTXYZlVyUwGTxMWN3lv/view?usp=sharing" class="btn btn-primary py-4 px-5">Download Resume</a>
+              <a href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=678fa2d4f7b3074e913ad9e9" class="btn btn-primary py-4 px-5">Download Resume</a>
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <section class="ftco-section" id="project-section"> <div class="container"> <div class="row justify-content-center mb-5 pb-5"> <div class="col-md-7 heading-section text-center ftco-animate"> <h1 class="big big-2">Projects</h1> <h2 class="mb-4">Projects</h2> <p>Below are the sample Data Analytics projects on SQL, Python, Power BI & ML.</p> </div> </div> <div class="row d-flex"> <div class="col-md-4 d-flex ftco-animate"> <div class="blog-entry justify-content-end"> <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');"></a> <div class="text mt-3 float-right d-block"> <h3 class="heading"> <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Digital Music Store Data Analysis using SQL</a> </h3> <p>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p> </div> </div> </div> <div class="col-md-4 d-flex ftco-animate"> <div class="blog-entry justify-content-end"> <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');"></a> <div class="text mt-3 float-right d-block"> <h3 class="heading"> <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Data Analysis using Python Project for Beginners</a> </h3> <p>Performed exploratory data analysis on diwali sales data using Python to improve the customer experience.</p> </div> </div> </div> <div class="col-md-4 d-flex ftco-animate"> <div class="blog-entry"> <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');"></a> <div class="text mt-3 float-right d-block"> <h3 class="heading"> <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Power BI Sales dashboard Project for Beginners</a> </h3> <p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.</p> </div> </div> </div> </div> <br> <div class="row d-flex justify-content-center"> <div class="col-md-4 d-flex ftco-animate"> <div class="blog-entry justify-content-end"> <a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');"></a> <div class="text mt-3 float-right d-block"> <h3 class="heading"> <a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">Sales Forecast- Time Series Forecasting</a> </h3> <p>Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.</p> </div> </div> </div> <div class="col-md-4 d-flex ftco-animate"> <div class="blog-entry justify-content-end"> <a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');"></a> <div class="text mt-3 float-right d-block"> <h3 class="heading"> <a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Customer Segmentation using clustering model</a> </h3> <p>Developed a ML model to give various recommendations of financial products &amp; services on target customer groups.</p> </div> </div> </div> </div> </div> </section> -->
+    
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="hid" style="visibility:hidden">
@@ -511,13 +525,13 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="col-md d-flex justify-content-center counter-wrap ftco-animate"> <div class="block-18"> <div class="text"> <strong class="number" data-number="1000">0</strong> <span>Mentored Students</span> </div> </div> </div> <div class="col-md d-flex justify-content-center counter-wrap ftco-animate"> <div class="block-18"> <div class="text"> <strong class="number" data-number="500">0</strong> <span>Cups of coffee</span> </div> </div> </div> -->
+            
           </div>
         </div>
       </div>
 
       <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-        <!-- <div class="container"> -->
+        
         <div class="row justify-content-center">
           <div class="col-md-7 ftco-animate text-center">
             <h2>Here's my<span>
@@ -532,7 +546,7 @@
             </div>
           </div>
         </div>
-        <!-- </div> -->
+        
       </div>
     </section>
 
@@ -540,7 +554,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
+            
             <h2 class="mb-4">Contact Me</h2>
             <p>Below are the details to reach out to me!</p>
           </div>
@@ -570,7 +584,7 @@
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
             <div class="align-self-stretch box p-4 text-center">
               <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-paper-plane"></span>
+                <span class="icon-envelope"></span>
               </div>
               <h3 class="mb-4">Email Address</h3>
               <p>
@@ -585,7 +599,7 @@
               </div>
               <h3 class="mb-4">Download Resume</h3>
               <p>
-                <a href="https://drive.google.com/file/d/1t57uhVY_7clqIRjNwqBeQ2LzsUi0y">resumelink</a>
+                <a href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=678fa2d4f7b3074e913ad9e9">resumelink</a>
               </p>
             </div>
           </div>
@@ -655,19 +669,23 @@
             <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
               <li class="ftco-animate normal-txt">Find me on
               </li>
-              <!-- <li class="ftco-animate"> <a href="https://www.youtube.com/@RishabhMishraOfficial"> <span class="icon-youtube"></span></a> </li> -->
+             
               <li class="ftco-animate">
-                <a href="inkedin.com/in/taffazul-ansari-87229a284/">
+                <a href="https://www.linkedin.com/in/taffazul-ansari-87229a284/">
                   <span class="icon-linkedin"></span></a>
               </li>
               <li class="ftco-animate">
                 <a href="https://x.com/TaffazulAnsari4">
                   <span class="icon-twitter"></span></a>
               </li>
-              <!-- <li class="ftco-animate"> <a href="https://twitter.com/rishabhnmishra"> <span class="icon-facebook"></span></a> </li> -->
+              
               <li class="ftco-animate">
                 <a href="https://www.instagram.com/hey._its_taffazul/">
                   <span class="icon-instagram"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="https://youtube.com/@technotechta?si=a9XwvcIh_tj7rzBQ">
+                  <span class="icon-youtube"></span></a>
               </li>
             </ul>
             <br>
